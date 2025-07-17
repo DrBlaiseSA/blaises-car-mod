@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "blaise_car_mod",
+  "version": "0.3",
+
+  "name": "Blaise's Car Mod",
+  "description": "Adds custom vehicles like Tofaş, ATV and more to Minecraft.",
+  "authors": [
+    "DrBlaiseSA"
+  ],
+  "contact": {
+    "homepage": "https://github.com/DrBlaiseSA/blaises-car-mod"
+  },
+
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.blaise.carmod.BlaiseCarMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.6",
+    "java": ">=17"
+  }
+}
